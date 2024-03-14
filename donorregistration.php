@@ -14,16 +14,6 @@ $place=$_POST["place"];
 $city=$_POST["city"];
 $bgroup=$_POST["blood"];
 
-
-
-
-
-
-
-
-
-
-
 $conn = mysqli_connect("localhost","omnamahshivaya","omnamahshivaya","bloodbank1");  
 if(!$conn){  
   die('Could not connect: '.mysqli_connect_error());  
